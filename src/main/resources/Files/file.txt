@@ -1,0 +1,4 @@
+use the below url get the details of th auth server --> "http://localhost:9001/.well-known/openid-configuration"
+
+
+config this url in resource-server in .properties/yml file --> "jwks_uri": "http://localhost:9001/oauth2/jwks",
